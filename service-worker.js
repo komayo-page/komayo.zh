@@ -3,7 +3,12 @@ self.addEventListener('install', (event) => {
     caches.open('v1').then((cache) => {
       return cache.addAll([
         '/',
-        '/img/komayo-in-ogi-game-with-victim.webp',
+        '/css/pico.classless.min.css',
+        '/favicon-512x512.png',
+        '/favicon.svg',
+        '/manifest.json',
+        '/ke-ma-yue-dui-shushui-de-duish-u-weixiao.png',
+        '/ke-ma-yue-dui-shushui-de-duish-u-weixiao.webp',
       ]);
     })
   );
