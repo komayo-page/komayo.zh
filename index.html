@@ -1,51 +1,144 @@
-Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.4), already activated sqlite3-2.0.3-arm64-darwin. Make sure all dependencies are added to Gemfile. (LoadError)
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/bundler-2.5.5/lib/bundler/rubygems_integration.rb:237:in `block (2 levels) in replace_gem'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:14:in `<top (required)>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:333:in `resolve_pool_config'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:134:in `establish_connection'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_handling.rb:53:in `establish_connection'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railtie.rb:304:in `block (2 levels) in <class:Railtie>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `class_eval'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `block in execute_hook'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:87:in `with_execution_control'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:92:in `execute_hook'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:78:in `block in run_load_hooks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `each'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `run_load_hooks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:338:in `<module:ActiveRecord>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:15:in `<top (required)>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/query_cache.rb:29:in `run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:29:in `before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:426:in `block in make_lambda'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:78:in `block in run!'
-<internal:kernel>:90:in `tap'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:75:in `run!'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/static.rb:25:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/rack-3.1.7/lib/rack/sendfile.rb:114:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:536:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/configuration.rb:272:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:100:in `block in handle_request'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:378:in `with_force_shutdown'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:99:in `handle_request'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:464:in `process_client'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:245:in `block in run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+<!DOCTYPE html>
+<html lang="zh" dir="ltr" itemscope itemtype="https://schema.org/ShortStory">
+  <head>
+    <title>妖怪的将棋</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="在满月的神秘光芒中，探索日本民间传说中迷人妖怪小马夜的故事。 她充满诱惑且致命，引诱迷失的灵魂进入奥吉游戏，吸收他们的生命能量，让他们遭受永恒的折磨。 这是一个关于致命的吸引力和不受控制的欲望的故事，是对诱惑危险的尖锐警告。">
+    <meta name="keywords" content="鬼故事, 駒妖, obake, 王棋, 将棋, yōkai, yūrei">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Cyril Veltin">
+    <meta property="og:title" content="妖怪的将棋">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://zh.komayo.page/">
+    <meta property="og:image" content="https://zh.komayo.page/img/komayo-1024x1024.webp">
+    <meta property="og:description" content="在满月的神秘光芒中，探索日本民间传说中迷人妖怪小马夜的故事。 她充满诱惑且致命，引诱迷失的灵魂进入奥吉游戏，吸收他们的生命能量，让他们遭受永恒的折磨。 这是一个关于致命的吸引力和不受控制的欲望的故事，是对诱惑危险的尖锐警告。">
+    <meta itemprop="name" content="妖怪的将棋">
+    <meta itemprop="description" content="在满月的神秘光芒中，探索日本民间传说中迷人妖怪小马夜的故事。 她充满诱惑且致命，引诱迷失的灵魂进入奥吉游戏，吸收他们的生命能量，让他们遭受永恒的折磨。 这是一个关于致命的吸引力和不受控制的欲望的故事，是对诱惑危险的尖锐警告。">
+    <meta itemprop="image" content="https://zh.komayo.page/img/komayo-1024x1024.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="妖怪的将棋">
+    <meta name="twitter:description" content="在满月的神秘光芒中，探索日本民间传说中迷人妖怪小马夜的故事。 她充满诱惑且致命，引诱迷失的灵魂进入奥吉游戏，吸收他们的生命能量，让他们遭受永恒的折磨。 这是一个关于致命的吸引力和不受控制的欲望的故事，是对诱惑危险的尖锐警告。">
+    <meta name="twitter:image" content="https://zh.komayo.page/img/komayo-1024x1024.webp">
+
+      <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
+      <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
+      <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
+      <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
+      <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
+      <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
+      <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
+      <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
+      <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
+      <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
+      <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
+      <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
+      <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
+      <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
+      <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
+      <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
+      <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
+      <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
+      <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
+      <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
+      <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
+      <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
+    <link rel="canonical" href="https://zh.komayo.page/">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <style media="screen">
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: white;
+          --color: black;
+          --link-color: #6d071a;
+          --quote-color: #6d071a;
+          --shadow-color: #ccc;
+          --article-title-text-color: #000;
+          --article-title-shadow-color: #ccc;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: black;
+          --color: white;
+          --link-color: #e37f98;
+          --quote-color: #e37f98;
+          --shadow-color: #58354d;
+          --article-title-text-color: #fff;
+          --article-title-shadow-color: #333;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/all.css" media="all">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ShortStory",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://zh.komayo.page/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sashité",
+          "url": "https://sashite.com/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
+        },
+        "inLanguage": "zh",
+        "headline": "妖怪的将棋",
+        "description": "在满月的神秘光芒中，探索日本民间传说中迷人妖怪小马夜的故事。 她充满诱惑且致命，引诱迷失的灵魂进入奥吉游戏，吸收他们的生命能量，让他们遭受永恒的折磨。 这是一个关于致命的吸引力和不受控制的欲望的故事，是对诱惑危险的尖锐警告。",
+        "image": "https://zh.komayo.page/img/komayo-1024x1024.webp",
+        "datePublished": "2023-06-26",
+        "dateModified": "2023-06-26",
+        "keywords": "鬼故事, 駒妖, obake, 王棋, 将棋, yōkai, yūrei"
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <picture>
+        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
+        <img
+          src="komayo-dark.svg"
+          alt="Komayō"
+          title="駒妖"
+          height="22"
+          width="92">
+      </picture>
+    </header>
+
+    <article>
+  <h1>
+    都市传奇
+  </h1>
+
+  <p>在日本偏远的乡村，流传着一个关于一位在月光下游荡的美艳女子的传说。有些人轻声低语，称她为駒妖。关于她的故事很少，而且都充满了神秘色彩。据说她身着深蓝色和服，优雅地出现在孤独的旅人面前，仿佛被他们的孤独所吸引。有人声称她会向他们发起挑战，进行一种类似于将棋的<a href="wang-qi/">古老游戏</a>，但其规则早已被时间遗忘。据说接受她邀请的人第二天会被发现，脸上带着奇怪的微笑，身边放着一块棋盘，他们的思想似乎迷失在了某个深不可测的谜团中。</p>
+
+
+  <picture>
+    <source type="image/webp" srcset="img/komayo-512x512.webp" media="(max-width: 512px)" height="512" width="512">
+    <source type="image/webp" srcset="img/komayo-1024x1024.webp" media="(min-width: 512px)" height="1024" width="1024">
+
+    <img
+      src="img/komayo-1024x1024.jpg"
+      alt="駒妖微笑着站在一位疲惫不堪的对手旁边，对手已在王棋棋盘旁睡着了。"
+      title="駒妖令人着迷的王棋游戏和不可抗拒的睡眠漩涡"
+      height="1024"
+      width="1024">
+  </picture>
+</article>
+
+
+  </body>
+</html>
