@@ -1,27 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   <url>
     <loc>https://zh.komayo.page/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://zh.komayo.page/img/japanese-woman-chinese-night-market-lanterns-cultural-anime-illustration,w_1024.webp</image:loc>
+      <image:title>棋魅女的誘惑</image:title>
+      <image:caption>穿著深藍和服的日本女子佇立在熱鬧的中國夜市裡，周圍掛滿紅色燈籠，散發溫暖光芒。</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://bn.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://fa.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://gu.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hi.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://id.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="jv" href="https://jv.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://kn.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ko.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="lo" href="https://lo.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://ml.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://mr.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://my.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="or" href="https://or.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://pa.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://ta.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://te.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://ur.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vi.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/"/>
   </url>
+
   <url>
     <loc>https://zh.komayo.page/gushi/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://zh.komayo.page/gushi/img/shanghai-night-street-woman-traditional-dress-moonlight-rickshaw-art,w_1024.webp</image:loc>
+      <image:title>闇夜棋話</image:title>
+      <image:caption>滿月下的上海街景：一位身著深藍色傳統服飾的長髮女子佇立在熙來攘往的街道上</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/stories/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/recits/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/monogatari/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/ruang-phaasa/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/gushi/"/>
   </url>
+
   <url>
     <loc>https://zh.komayo.page/gushi/sheng-zheng-jiu-ba-xie-hou/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://zh.komayo.page/gushi/sheng-zheng-jiu-ba-xie-hou/img/komayo-chronicles-book1-bar-regence-japanese-ghost-story-cover-illustration,w_512.webp</image:loc>
+      <image:title>摄政酒吧邂逅</image:title>
+      <image:caption>《摄政酒吧邂逅》的封面 - 日本棋牌酒吧夜晚場景</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/stories/an-evening-at-the-regency-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/recits/rencontre-au-bar-de-la-regence/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/monogatari/deai/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/ruang-phaasa/kan-phop-kan-thi-bar-richen-si/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/gushi/sheng-zheng-jiu-ba-xie-hou/"/>
   </url>
+
   <url>
     <loc>https://zh.komayo.page/youxi/</loc>
     <lastmod>2023-01-01</lastmod>
+    <image:image>
+      <image:loc>https://zh.komayo.page/youxi/img/japanese-temple-ghost-woman-ogi-game-moonlight-blue-art,w_1024.webp</image:loc>
+      <image:title>公主遊戲 - 關西王棋</image:title>
+      <image:caption>一個滿月之夜，兩位男子在寺廟五重塔前下棋。一位身穿藍色和服的女鬼在月光下靜靜地注視著他們</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://zh.komayo.page/youxi/img/traditional-ogi-shogi-variant-starting-position-japanese-chess-diagram,w_1024.webp</image:loc>
+      <image:title>王棋初始佈局</image:title>
+      <image:caption>8x8棋盤上王棋的初始佈局</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/game/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/jeu/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/gemu/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/len/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/youxi/"/>
   </url>
+
   <url>
     <loc>https://zh.komayo.page/guan-yu/</loc>
     <lastmod>2023-06-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/shoukai/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/kieo-kap/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/guan-yu/"/>
   </url>
+
   <url>
     <loc>https://zh.komayo.page/dushi-chuanshuo/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://zh.komayo.page/dushi-chuanshuo/img/shanghai-jingan-cybercafe-asian-woman-traditional-dress-digital-art,w_1024.webp</image:loc>
+      <image:title>棋去人归</image:title>
+      <image:caption>一位身穿深藍色和服的神秘女子正在離開上海夜晚的網咖，她的長髮在空中飄揚，臉上掛著邪魅的笑容</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/urban-legend/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/legende-urbaine/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/toshi-densetsu/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/tamnan-mueang/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/dushi-chuanshuo/"/>
   </url>
 </urlset>
